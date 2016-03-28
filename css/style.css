@@ -208,6 +208,7 @@ footer p {
   background-color: #bc7058;
   bottom: 62px;
   color: #fff;
+  text-transform: none;
 }
 
 .author img {
