@@ -1,0 +1,98 @@
+body {
+  width: 900px;
+  margin: auto;
+}
+
+hr {
+  background-image: url('img/hr-line.png');
+  background-repeat: repeat-x;
+}
+
+header {
+  height: 80px;
+  width: 900px;
+}
+
+.social {
+  position: absolute;
+  display: inline-block;
+  right: 182px;
+  top: 10px;
+}
+
+.social li {
+  display: inline;
+  float: right;
+  margin-right: 1px;
+}
+
+.social img {
+  height: 24px;
+  width: 24px;
+}
+
+.rss {
+  margin-left: 5px;
+}
+
+.logo {
+  float: left;
+}
+
+.title {
+  font-family: 'Damion', cursive;
+  font-size: 2.2em;
+  position: absolute;
+  top: -5px;
+}
+
+.title-slogan {
+  position: relative;
+}
+
+.recipe-title {
+  font-family: "Oswald";
+  font-weight: lighter;
+}
+
+.post-date, .print, .slogan {
+  font-family: "Inconsolata", monospace;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  color: gray;
+  letter-spacing: -0.5px;
+}
+
+.slogan {
+  position: relative;
+  top: 12px;
+}
+
+.post-date {
+  position: relative;
+  bottom: 25px;
+}
+
+.print {
+  font-size: 0.5em;
+  display: inline;
+}
+
+.print-block {
+  width: auto;
+  float: right;
+  position: relative;
+  bottom: 67px;
+}
+
+.recipe-text {
+  position: relative;
+  bottom: 40px;
+  font-family: 'Slabo 27px', serif;
+  color: gray;
+}
+
+.recipe-paragraph {
+    text-indent: 30px;
+    font-size: 1.26em;
+}
