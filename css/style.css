@@ -154,11 +154,12 @@ header p {
   width: 350px;
   height: 305px;
   font-family: 'Patrick Hand', sans-serif;
-  font-size: 1.5em;
+  font-size: 1.53em;
   list-style-type: none;
   position: relative;
   top: 12px;
   color: gray;
+  line-height: 31px;
 }
 
 .ingredients1 {
@@ -202,7 +203,7 @@ header p {
   display: inline-block;
   height: 40px;
   width: 150px;
-  padding-left: 45px;
+  padding-left: 40px;
   padding-top: 13px;
   font-family: 'Abel', sans-serif;
   font-size: 1.2em;
