@@ -14,10 +14,24 @@ header {
 hr {
   padding: 0;
   border: none;
-  border-top: medium double #333;
+  border-top: 1px solid #a8b2bb;
   color: #333;
   text-align: center;
   margin-bottom: 40px;
+}
+
+/*input[type="checkbox"] {
+display: none;
+}*/
+
+input[type="checkbox"] {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin:-1px 4px 0 0;
+  vertical-align: middle;
+  background: url(../img/checkbox-bg.png);
+  cursor: pointer;
 }
 
 footer {
@@ -29,7 +43,7 @@ footer {
 
 footer p {
   margin-bottom: -10px;
-  color: gray;
+  color: #a8b2bb;
 }
 
 .social {
@@ -86,16 +100,19 @@ footer p {
 .slogan {
   position: relative;
   top: -3px;
+  color: #a8b2bb;
 }
 
 .post-date {
   position: relative;
   bottom: 25px;
+  color: #a8b2bb;
 }
 
 .print {
   font-size: 0.5em;
   display: inline;
+  color: #a8b2bb;
 }
 
 .print-block {
@@ -198,7 +215,7 @@ footer p {
 }
 
 hr:after {
-    content: 'Placeholder';
+    content: url(../img/small-logo.png);
     display: inline-block;
     position: relative;
     top: -0.7em;
