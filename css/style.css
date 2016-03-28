@@ -3,14 +3,14 @@ body {
   margin: auto;
 }
 
-hr {
-  background-image: url('img/hr-line.png');
-  background-repeat: repeat-x;
-}
-
 header {
   height: 80px;
   width: 900px;
+  /*border-image: url(../img/border-img.png) 0 0 1 0 repeat-horizontal;*/
+  -webkit-border-image: url(../img/border-img.png) 1 0 0 0 repeat;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
 }
 
 .social {
@@ -93,6 +93,34 @@ header {
 }
 
 .recipe-paragraph {
-    text-indent: 30px;
-    font-size: 1.26em;
+  text-indent: 30px;
+  font-size: 1.26em;
+}
+
+.ingredients {
+  height: 305px;
+  background-image: url("../img/list-bg.png");
+  width: 899px;
+  position: relative;
+  bottom: 20px;
+}
+
+.ingredients ul {
+  display: inline-block;
+  width: 899px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1.75em;
+  list-style-type: none;
+  position: relative;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.ingredients ul li span {
+  padding-left: 10px;
+}
+
+.strikethrough:checked + span {
+  text-decoration:line-through;
 }
